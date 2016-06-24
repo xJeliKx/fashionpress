@@ -761,6 +761,7 @@ button {
 
 .small-12 {
     width: 100%;
+
 }
 
 .small-offset-11 {
@@ -991,6 +992,7 @@ button {
 
     .medium-4 {
         width: 33.33333%;
+
     }
 
     .medium-push-4 {
@@ -1348,6 +1350,7 @@ button {
 
     .large-3 {
         width: 25%;
+        padding-left: 0;
     }
 
     .large-push-3 {
@@ -5767,11 +5770,13 @@ b {
 }
 
 .magazine-name {
-    font: 300 30px/55px 'Open Sans Light';
+    font: 300 2em/1em 'Open Sans Light';
+
 }
 
 .menu {
     font: 500 14px 'Roboto';
+    text-align: left;
 }
 
 .red {
@@ -5809,6 +5814,9 @@ a {
     background: #dfebf1;
     background: linear-gradient(to left, #f9eae4, #dee9f1);
      }
+.searching {
+    max-width: 55em;
+}
 
 .search-text {
     text-transform: uppercase;
@@ -5818,7 +5826,7 @@ a {
 }
 
 input[type='search'] {
-    width: 30em;
+    max-width: 30em;
     height: 29px;
     background: #c9c9c9;
     margin: 0;
@@ -5856,7 +5864,7 @@ input[type='search'] {
 }
 
 .main {
-    width: 80%;
+    max-width: 55em;
 }
 
 .text {
@@ -5876,7 +5884,8 @@ input[type='search'] {
 }
 
 .large-9 {
-    text-align: left;
+    text-align: center;
+
 }
 
 .popular {
