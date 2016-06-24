@@ -3013,7 +3013,9 @@ select[multiple] {
 }
 
 .menu > li {
-    display: table-cell;
+    display: inline-flex;
+    flex-wrap: wrap;
+
 }
 
 .menu.vertical > li {
@@ -5880,4 +5882,8 @@ input[type='search'] {
 .popular {
     font: 500 20px/55px 'Roboto';
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+    
 }
