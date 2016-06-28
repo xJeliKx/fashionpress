@@ -7640,6 +7640,7 @@ input[type='search']
 
 .menu-text
 {
+    padding: 10px;
     text-transform: uppercase;
 
     color: white;
@@ -7678,11 +7679,14 @@ input[type='search']
     border: 1px solid #bebebe;
     background: linear-gradient(to left, #f4f6f7, #efefef);
 }
+a, a:hover {
+  color: black;
+}
+
 
 .gradient:hover
 {
     padding: 10px 0 10px 20px;
-
     background: white;
 }
 
@@ -7698,13 +7702,16 @@ input[type='search']
     text-transform: uppercase;
 }
 .text p {
-  margin: 4px 6px;
-  border-bottom: 1px solid #aaa;
+  margin: 4px 0 0 0;
+  border-bottom: 1px solid #ededed;
   text-align: left;
 } 
-.price {
-  margin: 4px 0;
-  border-right: 1px solid #aaa;
+.price1 {
+  font-weight: bold;
+  margin: 3px 0;
+  padding: 6px 0;
+  border-right: 1px solid #ededed;
+
 }
 .flex {
   text-align: left;
@@ -7716,7 +7723,7 @@ input[type='search']
    }
 }
 @media screen and (max-width: 700px) {
-  .text {
+   .text {
       font-size: 78%;
    }
    .button {
@@ -7724,8 +7731,11 @@ input[type='search']
     height: 50%;
     padding-top: 1px;
    }
-   .small-4.button {
+   .small-3.button {
     height: 30%;
+   }
+   body .small-5.price, .small-3.price {
+    font-size: 85% !important;
    }
 }
 .background {
@@ -7736,6 +7746,23 @@ input[type='search']
   border: 3px solid #eee;
   background: #fff;
 }
-.small-4.price {
-  padding: 0 6px;
+.small-5.price, .small-3.price {
+  margin-top: 5px;
+  padding: 6px;
+  font-size: 18px;
+}
+.main-theme img {
+  padding-top: 6px;
+}
+.arrow {
+  color: #e8e681;
+}
+.price > b {
+  color:black;
+  font-weight: bold;
+}
+.price {
+  margin: 3px 0;
+  padding: 6px 0;
+  border-right: 1px solid #ededed;
 }
