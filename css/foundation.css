@@ -7679,7 +7679,7 @@ input[type='search']
     border: 1px solid #bebebe;
     background: linear-gradient(to left, #f4f6f7, #efefef);
 }
- a, .main-theme ~ a:hover {
+ a, .main-theme a:hover, a:focus {
   color: black;
 }
 
