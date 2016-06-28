@@ -7725,7 +7725,7 @@ input[type='search']
     padding-top: 1px;
    }
    .small-4.button {
-    max-height: 30%;
+    height: 30%;
    }
 }
 .background {
