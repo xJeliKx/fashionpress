@@ -7554,12 +7554,50 @@ b
 
     text-align: left;
 }
-
-.red
+.row .twit {
+  text-align: left;
+}
+.red {
+  padding-bottom: 26px;
+}
+.red, i
 {
     color: red;
 }
+.twit img {
+  float: left;
 
+}
+.twit span {
+  display: block;
+  text-align: left;
+  padding-bottom: 36px;
+}
+.twit .small-12 {
+  font-style: italic;
+  font-size: 13px;
+
+}
+.happy-client > span {
+  display: block;
+  text-align: left;
+  padding-bottom: 28px;
+}
+.happy-client .row {
+  text-align: center;
+  margin-right: 29px;
+}
+.happy-client blockquote {
+  font: italic 13px/20px 'PTSans';
+
+  border: 0;
+  background-color: #f6f3f3;
+}
+.jon-doe span {
+  vertical-align: bottom;
+   font-size: 13px;
+   padding-left: 5px;
+ }
 a
 {
     padding: 0;
@@ -7672,7 +7710,7 @@ input[type='search']
 
 .gradient
 {
-    padding: 10px;
+    padding: 0 10px ;
 
     transition: .2s linear;
 
@@ -7686,8 +7724,11 @@ input[type='search']
 
 .gradient:hover
 {
-    padding: 10px 0 10px 20px;
+    padding-left: 20px;
     background: white;
+}
+img[alt="baner"] {
+  padding-bottom: 62px;
 }
 
 .large-9
@@ -7717,11 +7758,7 @@ input[type='search']
   text-align: left;
   display: flex;
 }
-@media screen and (max-width: 1024px) {
-  .text {
-      
-   }
-}
+
 @media screen and (max-width: 700px) {
    .text {
       font-size: 78%;
@@ -7765,4 +7802,104 @@ input[type='search']
   margin: 3px 0;
   padding: 6px 0;
   border-right: 1px solid #ededed;
+}
+.empty {
+  height: 37px;
+}
+footer .menu {
+  padding-top: 36px;
+  text-align: center;
+}
+.menu-about {
+  text-align: left;
+  padding: 36px 0 28px 0;
+}
+
+.footer{
+ background-color: rgba(238, 238, 238, 0.9);
+  
+ padding-bottom: 50px;
+}
+.footer {
+  font-family: 'Roboto';
+}
+.about p {
+  font: 500 12px 'Roboto';
+  padding-top: 36px;
+  margin:0;
+  max-width: 83%;
+}
+body footer .about {
+  text-align: left;
+  padding: 0;
+}
+footer .about span {
+  padding-top: 27px;
+}
+.about p:nth-of-type(2) {
+  font-size: 13px;
+}
+.menu-contact-info {
+  text-align: left;
+  padding-top: 36px;
+}
+.follow-us div {
+  font: 500 13px 'Roboto';
+  padding: 16px 0 0 50px;
+  text-align: left;
+  display: block; 
+  border-right: 2px solid #e9eaed;
+  border-left: 2px solid #e9eaed;
+}
+.menu-follow-us {
+  text-align: center;
+  padding-top: 36px;
+  margin: 0;
+}
+.follow-us img {
+  
+  padding-right: 5px;
+}
+
+.follow-us div:last-of-type {
+  padding-bottom: 53px;
+}
+
+.contact-info div {
+  text-align: left; 
+
+  font-size: 10px;
+  
+}
+.company {
+  padding-top: 54px;
+}
+.company div {
+  text-align: left; 
+  font-size: 10px;
+  display: block;
+  color: #747474;
+}
+.company div:first-of-type {
+  padding-top: 23px;
+}
+.fotter {
+  padding: 25px 0;
+  background-color: #313131;
+}
+.fotter .large-8 {
+  color: #c3c3c3;
+  vertical-align: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.fotter .large-4 {
+  color: #7a7777;
+  font-weight: 300;
+}
+.fotter a {
+  color: #c3c3c3;
+}
+.footer .row:first-child {
+  max-width: 55em;
 }
